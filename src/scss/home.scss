@@ -1,0 +1,26 @@
+html, body, main{
+    height: 100%;
+}
+
+main{
+    .cat{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 0;
+        height: 200px;
+    }
+    .logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        overflow: hidden;
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        img{
+            width: 100%;
+        }
+    }
+}
